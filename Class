@@ -1,0 +1,6 @@
+<?php
+   interface lampusein
+   {
+     //...isi dari interface lampusein
+   }
+ ?>
