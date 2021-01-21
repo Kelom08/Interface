@@ -1,0 +1,20 @@
+<?php
+interface lampusein{
+  //...isi dari interface 
+   public function geser_kanan();
+   public function geser_kiri();
+}
+  
+class motor implements lampusein{
+   public function geser_kanan(){
+     return "Geser Kanan...";
+   }
+   public function geser_kiri(){
+     return "Geser Kiri...";
+   }
+}
+ 
+$motor_baru = new motor();
+echo $motor_baru->geser_kanan();
+// Geser Kanan...
+?>
