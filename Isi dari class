@@ -1,0 +1,8 @@
+<?php
+   interface lampusein{
+     public function geser_kanan();
+     public function geser_kiri();
+     public function klik_tengah();
+   
+      }
+ ?>
